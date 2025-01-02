@@ -4,8 +4,8 @@
     <title>College Event Ticket</title>
     <style>
         body {
+            margin:16%;
             font-family: Arial, sans-serif;
-            margin: 20%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -13,48 +13,35 @@
         }
 
         .ticket {
-            width: 90%;
-            max-width: 400px;
             border: 2px solid blue;
             border-radius: 8px;
-            background-color:yellow;
+            background-color:skyblue;
             padding: 20px;
             text-align: center;
             box-shadow: 0 4px 6px blue;
         }
-
-        .ticket .logo {
-            margin-bottom: 15px;
+        h1{
+            background-color:yellow;
+            border: none;
+            border-radius: 50px;
         }
-
-        .ticket .logo img {
-            max-width: 200px;
-       
-        }
-
-        .ticket .event-info h1 {
-            font-size: 1.5em;
-            margin: 5px 0;
-        }
-
-        .ticket .details p {
-            font-size: .9;
-            margin: 5px;
+        .details{
+            background-color: gainsboro;
+            border-radius: 16PX;
         }
     </style>
 </head>
 <body>
     <div class="ticket">
-        <div class="logo">
-            <img src="https://www.shutterstock.com/image-vector/indian-festival-dandiya-mahotsav-navratri-600nw-2362871065.jpg"
-            height="100px";
-            width="200px";
-            alt="DANDIYA Logo">
-        </div>
         <div class="event-info">
             <h1>DANDIYA FEST 2025</h1>
-            <p>Presented by JSPM'S "Jayawantrao Sawant Collage of Engineering PUNE"</p>
+            <p style="background-color: gainsboro;">Presented by JSPM'S "Jayawantrao Sawant Collage of Engineering PUNE"</p>
         </div>
+        <div class="logo">
+            <img src="https://www.shutterstock.com/image-vector/indian-festival-dandiya-mahotsav-navratri-600nw-2362871065.jpg"
+            height="100px";width="200px";alt="DANDIYA Logo">
+        </div>
+       
         <div class="details">
             <p>Date : OCTOBER 16, 2025</p>
             <p>Time : 07:00 PM - 10:00 PM</p>
