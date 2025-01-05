@@ -4,49 +4,77 @@
     <title>College Event Ticket</title>
     <style>
         body {
-            margin:16%;
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100px;
+            background-color: #e3f2fd;
         }
 
         .ticket {
-            border: 2px solid blue;
-            border-radius: 8px;
-            background-color:skyblue;
-            padding: 20px;
+            margin-top: 10%;
+            width: 320px;
+            border: 2px solid #90caf9;
+            border-radius: 5px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ticket-part {
+            padding: 15px;
+            position: relative;
+        }
+
+        .ticket-header {
             text-align: center;
-            box-shadow: 0 4px 6px blue;
+            margin-bottom: 10px;
         }
-        h1{
-            background-color:yellow;
-            border: none;
-            border-radius: 50px;
+
+        .dotted-line {
+            border-top: 1px dashed black;
         }
-        .details{
-            background-color: gainsboro;
-            border-radius: 16PX;
+        
+        .ticket-header h2 {
+            font-size: 20px;
+            margin: 0;
+            color:black;
         }
+
+        .ticket-body {
+            margin-top: 10px;
+        }
+
+        .ticket-body p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #424242;
+        }
+
+       
+
+       
     </style>
 </head>
 <body>
     <div class="ticket">
-        <div class="event-info">
-            <h1>DANDIYA FEST 2025</h1>
-            <p style="background-color: gainsboro;">Presented by JSPM'S "Jayawantrao Sawant Collage of Engineering PUNE"</p>
+        <div class="ticket-part">
+            <div class="ticket-header">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDh_qSqFIeoGUl0MwXUETPDo13_m1DJl75Eg&s"
+                height="100px" alt="College Logo">
+                <h2>JSPM'S Jayawantrao Sawant College of Engineering,Pune</h2>
+            </div>
+            <div class="ticket-body">
+                <p><strong>Event:</strong> Cultural Fest 2025</p>
+                <p><strong>Date:</strong> 16th February 2025</p>
+                <p><strong>Time:</strong> 6:00 PM</p>
+                <p><strong>Venue:</strong> College Ground</p>
+            </div>
         </div>
-        <div class="logo">
-            <img src="https://www.shutterstock.com/image-vector/indian-festival-dandiya-mahotsav-navratri-600nw-2362871065.jpg"
-            height="100px";width="200px";alt="DANDIYA Logo">
-        </div>
-       
-        <div class="details">
-            <p>Date : OCTOBER 16, 2025</p>
-            <p>Time : 07:00 PM - 10:00 PM</p>
-            <p>Venue : College Auditorium</p>
-            <p>Ticket Holder : Samarth Balasaheb Kawane</p>
+        <hr class="dotted-line">
+        <div class="ticket-part">
+            <div class="ticket-body">
+                <p><strong>Ticket Holder:</strong>Samarth Kawane</p>
+            </div>
         </div>
     </div>
 </body>
